@@ -1,0 +1,17 @@
+:root {
+  --color-gypsum: #f5f8fa;
+  --color-idle: #dfdfdf;
+  --color-manatee: #c2c7cb;
+  --color-navy-blue: #394259;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, #root {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}

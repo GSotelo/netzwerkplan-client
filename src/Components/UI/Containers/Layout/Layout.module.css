@@ -1,0 +1,27 @@
+.headerBox {
+  display: flex;
+  flex-direction: column;
+  height: 15%;
+  width: 100%;
+}
+
+.mainBox {
+  display: flex;
+  height: 81%;
+  width: 100%;
+}
+
+.footer {
+  height: 4%;
+  width: 100%;
+}
+
+.sideBarBox {
+  height: 100%;
+  width: 20%;
+}
+
+.contentBox {
+  height: 100%;
+  width: 80%;
+}

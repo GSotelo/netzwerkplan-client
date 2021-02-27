@@ -1,0 +1,19 @@
+.systemButton {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.systemButton .btn {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 33.33%;
+}
+
+.btn:hover {
+  background-color: #c2c7cb;
+}

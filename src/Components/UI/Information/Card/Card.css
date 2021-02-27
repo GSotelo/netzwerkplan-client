@@ -1,0 +1,23 @@
+.card {
+  background-color: #f0f0f0;
+  height: 100%;
+}
+
+.react-flow__node-default {
+  background-color: #f0f0f0;
+  border: 1px solid #c2c7cb;
+}
+
+.titleFormat {
+  font-weight: bold;
+}
+
+.icon {
+  height: 45px;
+}
+
+.icon svg {
+  height: 100%;
+  width: 100%;
+  padding: 1%;
+}

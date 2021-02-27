@@ -1,0 +1,30 @@
+.toolBar {
+  align-items: center;
+  border-bottom: 1px solid var(--color-manatee);
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.group {
+  align-items: center;
+  display: flex;
+  border-right: 1px solid var(--color-manatee);
+  height: 50%;
+  width: auto;
+}
+
+.group>div {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 2rem;
+}
+
+.group>div:hover {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  box-sizing: content-box;
+  padding: 0.20rem;
+}

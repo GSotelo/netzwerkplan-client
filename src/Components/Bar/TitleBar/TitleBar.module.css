@@ -1,0 +1,36 @@
+.titleBar {
+  background-color: var(--color-idle);
+  border-bottom: 1px solid var(--color-manatee);
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.logoBox {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 100%;
+  justify-content: flex-start;
+  padding-left: 0.5rem;
+  width: 3.5%;
+}
+
+.logoBox svg {
+  height: 70%;
+  width: auto;
+}
+
+.textBox {
+  align-items: center;
+  color: var(--color-navy-blue);
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 85%;
+}
+
+.controlsBox {
+  width: 11.5%;
+}

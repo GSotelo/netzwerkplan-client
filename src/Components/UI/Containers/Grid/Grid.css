@@ -1,0 +1,41 @@
+.grid {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.title {
+  align-items: center;
+  background-color: var(--color-idle);
+  color: var(--color-navy-blue);
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 10%;
+  padding-left: 0.5rem;
+  position: sticky;
+}
+
+.groupBox {
+  height: 90%;
+  overflow: auto;
+}
+
+.row {
+  display: flex;
+  height: 4rem;
+}
+
+.col {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 33.33%;
+}
+
+.col svg {
+  height: 80%;
+  width: 100%;
+  cursor: pointer;
+}

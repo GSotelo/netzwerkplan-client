@@ -1,0 +1,29 @@
+.sideBar {
+  background-color: var(--color-gypsum);
+  border-left: 1px solid var(--color-manatee);
+  border-right: 1px solid var(--color-manatee);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.4rem;
+  width: 100%;
+}
+
+.hardwareBox {
+  border: 1px solid var(--color-manatee);
+  height: 34%;
+  width: 100%;
+}
+
+.linksBox {
+  border: 1px solid var(--color-manatee);
+  height: 34%;
+  width: 100%;
+}
+
+.projectTreeBox {
+  border: 1px solid var(--color-manatee);
+  height: 30%;
+  width: 100%;
+}
