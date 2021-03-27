@@ -1,11 +1,9 @@
 import React from "react";
+import { DeviceGrid, ConnectorGrid } from "./utilities/CustomGrid";
 import ProjectTree from "../../UI/Navigation/ProjectTree/ProjectTree";
 
-import treeData from "./utilities/treeData";
 import styles from "./SideBar.module.css";
-
-// Temp
-import { DeviceGrid, ConnectorGrid } from "./utilities/CustomGrid";
+import treeData from "./utilities/treeData";
 
 const SideBar = (props) => (
   <div className={styles.sideBar}>
